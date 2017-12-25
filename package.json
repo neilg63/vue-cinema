@@ -6,11 +6,11 @@
   "author": "Anthony Gore <anthony@vuejsdevelopers.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuejsdevelopers/vuejs-cinema"
+    "url": "https://github.com/neilg63/vue-cinema"
   },
   "license": "UNLICENSED",
   "scripts": {
-    "start": "nodemon ./server.js --ignore src/ -e js,html,css",
+    "start": "nodemon ./server.js -C --ignore node_modules/ -e js,html,css",
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
